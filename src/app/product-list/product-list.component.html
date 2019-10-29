@@ -1,0 +1,32 @@
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
+
+    
+    <!-- 
+    *ngFor es una "directiva estructural". Las directivas estructurales dan forma o remodelan la estructura del DOM, típicamente agregando, eliminando y manipulando los elementos a los que están unidos. Cualquier directiva con un asterisco *, es una directiva estructural. 
+    -->
+
+<!-- Muestra la descripcion y un título 'Descripcion' , si es que existe -->
+
+    <!-- <p *ngIf="product.description"> Descripcion: {{ product.description }} </p> 
+    <button (click)="share()">Compartir    </button>
+-->
+    <!-- <app-products-alerts 
+      [product]="product"
+      (notify)="onNotify()">      
+    </app-products-alerts>
+    -->
+    
+<h2>Productos</h2>
+
+<div *ngFor="let product of products; index as productId">  
+  <h3>
+  <a [title]="product.name + ' details '" [routerLink]="['/products', productId]" >
+    {{ product.name }}
+ </a>
+  </h3>
+</div>
