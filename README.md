@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Mitienda
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.15.
@@ -26,8 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# angular-p1qeza-5m1xur
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-p1qeza-5m1xur)
->>>>>>> 47c1e998d83910fc4c4524001740a6be744562c6
